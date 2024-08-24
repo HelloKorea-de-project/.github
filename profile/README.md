@@ -3,7 +3,7 @@
 외국인 대상 종합 여행 정보 플랫폼을 구축해 서울을 여행하려는 외국인에게 다양한 항공편 정보, 여행할 시기에 대한 한국 날씨, 환율 정보 제공과 서울시 자치구별 관광지/행사/숙소 정보를 제공하려고 했습니다. 또한, 데이터 웨어하우스를 구축해 서비스 개선과 마케팅 측면에서 고려할 수 있는 데이터를 분석하려 했습니다
 
 ## 프로젝트 일정 ##
-<img width="680" alt="image" src="https://github.com/user-attachments/assets/10138eb7-5134-4658-9945-10ddd3ec2f01">
+<img width="680" alt="image" src="https://github.com/user-attachments/assets/10138eb7-5134-4658-9945-10ddd3ec2f01"><br>
 - 매일 오후 1시 스크럼을 진행 했습니다.
 - 매주 금요일 1주 회고를 진행 했습니다.
 
@@ -79,9 +79,9 @@ ETL 과정에서의 예상치 못한 오류나 예외로 인해 데이터 품질
 
 <img width="680" alt="image" src="https://github.com/user-attachments/assets/f526bd95-84b5-4ea2-a005-ce010c2c02de">
 
-1. Airflow DAG를 통해 데이터 업데이트 시 새로 수입된 데이터 모델 테스트(정합성, 도메인 무결성, 개체 무결성) 및 품질 저하 알림을 자동화 했습니다.
-<br>2. Github를 통한 데이터 모델 문서 버전 관리, generic test 및 macro를 활용한 테스트 코드 관리를 구성했습니다.
-<br>3. 데이터 모델마다의 freshness field를 선정하고, 해당 field에 의해 필터링된 fresh 데이터 모델을 정의하여 이를 대상으로 테스트하는 방식으로 구현했습니다.
+1. Airflow DAG를 통해 데이터 업데이트 시 새로 수입된 데이터 모델 테스트(정합성, 도메인 무결성, 개체 무결성) 및 품질 저하 알림을 자동화 했습니다.<br>
+2. Github를 통한 데이터 모델 문서 버전 관리, generic test 및 macro를 활용한 테스트 코드 관리를 구성했습니다.<br>
+3. 데이터 모델마다의 freshness field를 선정하고, 해당 field에 의해 필터링된 fresh 데이터 모델을 정의하여 이를 대상으로 테스트하는 방식으로 구현했습니다.
 
 ## 대시보드 구성 ##
 
