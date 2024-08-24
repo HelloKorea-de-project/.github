@@ -96,4 +96,5 @@ ETL 과정에서의 예상치 못한 오류나 예외로 인해 데이터 품질
 
 ## 추후 개선할 사항 ##
 
-프레젠테이션 링크 : https://www.canva.com/design/DAGN4mktO2k/Dpa086pc6QjvBAqSxfpEDw/view?utm_content=DAGN4mktO2k&utm_campaign=designshare&utm_medium=link&utm_source=editor
+프레젠테이션 링크 : https://www.canva.com/design/DAGN4mktO2k/Dpa086pc6QjvBAqSxfpEDw/view?utm_content=DAGN4mktO2k&utm_campaign=designshare&utm_medium=link&utm_source=editor<br>
+보고서 링크 : https://www.notion.so/prgrms/5c9e91b238fc4aaf8eefedab0b66688e?pvs=4
