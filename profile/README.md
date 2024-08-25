@@ -83,6 +83,17 @@ ETL 과정에서의 예상치 못한 오류나 예외로 인해 데이터 품질
 2. Github를 통한 데이터 모델 문서 버전 관리, generic test 및 macro를 활용한 테스트 코드 관리를 구성했습니다.<br>
 3. 데이터 모델마다의 freshness field를 선정하고, 해당 field에 의해 필터링된 fresh 데이터 모델을 정의하여 이를 대상으로 테스트하는 방식으로 구현했습니다.
 
+
+BI tool(Superset)에 차트로 시각화된 데이터가 어떤 과정으로 만들어졌는지, 무엇을 분석하기 위해 만들어졌는지 파악하기 힘들다는 점을 인지하고,
+<br>Redshift에서 ELT를 통해 만들어지는 데이터 모델들을 DBT에 관리하여 데이터 모델 버전, 각 모델들의 메타 정보, 모델 간 종속 관계를 쉽게 파악할 수 있도록 했습니다.
+
+<img width="680" alt="image" src="https://github.com/user-attachments/assets/af3f1b23-e123-4120-bf4b-7b5b5b91cde2">
+<img width="680" alt="image" src="https://github.com/user-attachments/assets/ab98dc95-658b-4c0d-9e8d-29631eee33c5">
+
+위의 이미지들은 Airflow 웹페이지의 ‘dbt docs’ 메뉴를 들어가면 확인할 수 있는 화면이며, 데이터 모델을 검색하고 정보를 확인할 수 있습니다.
+<br>DBT를 도입하는 과정 중에 모델 생성까지의 실행 시간이 많이 걸리는 쿼리, 불필요하게 중복되거나 종속된 쿼리, 실행이 되지 않는 쿼리 등을 발견할 수 있었고 이들을 정리 및 개선할 수 있었습니다.
+
+
 ## 대시보드 구성 ##
 
 대시 보드는 서비스 데이터 분석, 사용자 분석으로 분류해 구성했습니다.
