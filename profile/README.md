@@ -22,7 +22,8 @@
 - 언어 : Python, SQL, JavaScript
 
 ## 아키텍처 ##
-<img width="680" alt="image" src="https://github.com/user-attachments/assets/bf04d8f3-a215-402e-9136-8fa61ce06b9d">
+![hellokorea drawio (3)](https://github.com/user-attachments/assets/496678f6-663b-4061-8159-e9583af601bb)
+
 
 ## 데이터 파이프라인 ##
 <img width="680" alt="image" src="https://github.com/user-attachments/assets/f094d3f6-8914-4620-8bbd-82121f45f846">
